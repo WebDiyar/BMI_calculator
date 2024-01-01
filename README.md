@@ -7,10 +7,10 @@ To run this application locally, you'll need to have Node.js installed on your s
 
 ### Clone the repository
 1) Open the cmd:
-2) git clone https://github.com/WebDiyar/BMI_calculator.git
-3) cd BMI_calculator
-4) npm install
-5) npm start
+2) `git clone https://github.com/WebDiyar/BMI_calculator.git`
+3) `cd BMI_calculato`
+4) `npm install`
+5) `npm start`
 
 #### Usage
 Once the application is running, navigate to http://localhost:3000 in your web browser to use the BMI calculator.
