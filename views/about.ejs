@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - BMI Calculator</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .image-gallery {
+            padding-top: 5rem;
+        }
+
+        .img-thumbnail {
+            max-width: 100%;
+            height: auto;
+        }
+
+        body {
+            background-color: #e9ecef;
+        }
+
+        .bmi-calculator-container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: .5rem;
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+        }
+
+        .bmi-calculator-header,
+        .bmi-calculator-footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            margin-bottom: 1rem;
+            border-radius: .5rem;
+            box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+        }
+
+        .bmi-calculator-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            margin-bottom: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">BMI Calculator</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/history">History</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/About BMI">About <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container image-gallery">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="/img/bmi-1.avif" class="img-thumbnail" alt="BMI Image 1">
+            </div>
+            <div class="col-lg-6">
+                <img src="/img/bmi-2.jpg" class="img-thumbnail" alt="BMI Image 2">
+            </div>
+            <div class="col-lg-6">
+                <img src="/img/bmi-3.jpg" class="img-thumbnail" alt="BMI Image 3">
+            </div>
+            <div class="col-lg-6">
+                <img src="/img/bmi-4.webp" class="img-thumbnail" alt="BMI Image 4" style="height: 350px; width: 600px; margin-top: 10px;">
+            </div>
+        </div>
+    </div>
+
+    <div class="bmi-calculator-footer">
+        &copy; 2024 Diyar Amangeldi, SE-2202
+    </div>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
